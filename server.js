@@ -26,7 +26,7 @@ app.listen(PORT, () => {
   console.log("listening on port", PORT);
 });
 
-// 404 Page
+// 404 Page (always put at bottom)
 app.get("*", (req, res) => {
   res.send("404");
 });

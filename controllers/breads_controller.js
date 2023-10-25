@@ -11,7 +11,6 @@ breads.get("/", (req, res) => {
 });
 
 // SHOW
-// SHOW
 breads.get("/:arrayIndex", (req, res) => {
   if (Bread[req.params.arrayIndex]) {
     res.render("Show", {
