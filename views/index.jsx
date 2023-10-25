@@ -25,5 +25,4 @@ function Index ({breads})  {
   )
 }
 
-
 module.exports = Index
